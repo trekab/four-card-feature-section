@@ -99,6 +99,12 @@ header {
 }
 
 @media (min-width: 768px) {
+  body {
+    padding: 80px 32px;
+  }
+  header {
+    margin-bottom: 4rem;
+  }
   .heading {
     font-size: 2.25rem;
     line-height: 3.375rem;
