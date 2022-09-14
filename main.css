@@ -51,30 +51,36 @@ header {
 }
 
 .card {
-  max-width: 311px;
+  width: 311px;
   height: 222px;
   padding: 28px;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   border-radius: 8px;
   margin: auto;
   margin-bottom: 25px;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-position: bottom 28px right 28px;
+  background-size: 57px 57px;
 }
 
 .card:first-of-type {
   border-top: 3px solid var(--cyan);
+  background-image: url("./images/icon-supervisor.svg");
 }
 
 .card:nth-of-type(2) {
   border-top: 3px solid var(--red);
+  background-image: url("./images/icon-team-builder.svg");
 }
 
 .card:nth-of-type(3) {
   border-top: 3px solid var(--orange);
+  background-image: url("./images/icon-karma.svg");
 }
 
 .card:last-of-type {
   border-top: 3px solid var(--blue);
+  background-image: url("./images/icon-calculator.svg");
 }
 
 .card-heading {
